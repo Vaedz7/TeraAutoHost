@@ -12,7 +12,7 @@ int main(void){
 // START PROGRAM ON MICROCONTROLLER
 start_program_callback();
 initialize_framework(0);
-runs=0
+runs=0;
 
 // START PROGRAM ON SWITCH
 start_program_flash(CONNECT_CONTROLLER_DELAY);
@@ -68,7 +68,7 @@ while (true){
     runs++;
     
     // EDIT DATE
-    if (runs = 6) {
+    if (runs == 6) {
         // NAVIGATE TO SETTINGS
         pbf_press_dpad(DPAD_RIGHT, 5, 105);
         pbf_press_dpad(DPAD_RIGHT, 5, 105);
