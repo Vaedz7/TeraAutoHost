@@ -26,46 +26,46 @@ while (true){
     pbf_wait(50);
     
     // CONNECT TO INTERNET AND SAVE
-    pbf_press_button(BUTTON_X, 5, 105)
-    pbf_press_button(BUTTON_R, 5, 250)
-    pbf_press_button(BUTTON_A, 5, 750)
-    pbf_press_button(BUTTON_A, 5, 105)
-    pbf_press_button(BUTTON_L, 5, 1250)
-    pbf_press_button(BUTTON_A, 5, 105)
+    pbf_press_button(BUTTON_X, 5, 105);
+    pbf_press_button(BUTTON_R, 5, 250);
+    pbf_press_button(BUTTON_A, 5, 750);
+    pbf_press_button(BUTTON_A, 5, 105);
+    pbf_press_button(BUTTON_L, 5, 1250);
+    pbf_press_button(BUTTON_A, 5, 105);
     
     // FAILSAFE
-    pbf_press_button(BUTTON_B, 5, 105)
-    pbf_press_button(BUTTON_B, 5, 105)
-    pbf_press_button(BUTTON_B, 5, 105)
-    pbf_press_button(BUTTON_B, 5, 105)
-    pbf_press_button(BUTTON_B, 5, 105)
-    pbf_press_button(BUTTON_PLUS, 5, 250)
-    pbf_press_button(BUTTON_A, 5, 105)
+    pbf_press_button(BUTTON_B, 5, 105);
+    pbf_press_button(BUTTON_B, 5, 105);
+    pbf_press_button(BUTTON_B, 5, 105);
+    pbf_press_button(BUTTON_B, 5, 105);
+    pbf_press_button(BUTTON_B, 5, 105);
+    pbf_press_button(BUTTON_PLUS, 5, 250);
+    pbf_press_button(BUTTON_A, 5, 105);
     
     // START RAID
-    pbf_press_button(BUTTON_A, 5, 250)
-    pbf_press_button(BUTTON_A, 5, 105)
-    pbf_press_button(BUTTON_A, 5, 750)
+    pbf_press_button(BUTTON_A, 5, 250);
+    pbf_press_button(BUTTON_A, 5, 105);
+    pbf_press_button(BUTTON_A, 5, 750);
     
     // WAIT FOR PARTICIPANTS
-    pbf_press_button(BUTTON_A, 5, 105)
-    pbf_wait(37500)
+    pbf_press_button(BUTTON_A, 5, 105);
+    pbf_wait(37500);
     
     // ATTACK ONCE AND WAIT FOR RAID TO END
-    pbf_press_button(BUTTON_A, 5, 105)
-    pbf_press_button(BUTTON_A, 5, 105)
-    pbf_press_button(BUTTON_A, 5, 105)
-    pbf_wait(22500)
-    pbf_press_dpad(DPAD_DOWN, 5, 105)
-    pbf_press_button(BUTTON_A, 5, 625)
-    pbf_press_button(BUTTON_A, 5, 105)
-    pbf_wait(3750)
+    pbf_press_button(BUTTON_A, 5, 105);
+    pbf_press_button(BUTTON_A, 5, 105);
+    pbf_press_button(BUTTON_A, 5, 105);
+    pbf_wait(22500);
+    pbf_press_dpad(DPAD_DOWN, 5, 105);
+    pbf_press_button(BUTTON_A, 5, 625);
+    pbf_press_button(BUTTON_A, 5, 105);
+    pbf_wait(3750);
     
     // RESET GAME
-    pbf_press_button(BUTTON_HOME, 5, 250)
-    pbf_press_button(BUTTON_X, 5, 105)
-    pbf_press_button(BUTTON_A, 5, 625)
-    runs++
+    pbf_press_button(BUTTON_HOME, 5, 250);
+    pbf_press_button(BUTTON_X, 5, 105);
+    pbf_press_button(BUTTON_A, 5, 625);
+    runs++;
     
     // EDIT DATE
     if (runs = 6) {
@@ -100,12 +100,12 @@ while (true){
         
         // RETURN TO GAME
         pbf_press_button(BUTTON_HOME, 10, 375);
-    }
+    };
     
     // RESTART GAME
-    pbf_press_button(BUTTON_A, 5, 125)
-    pbf_press_button(BUTTON_A, 5, 3750)
-    pbf_press_button(BUTTON_A, 5, 3750)
+    pbf_press_button(BUTTON_A, 5, 125);
+    pbf_press_button(BUTTON_A, 5, 3750);
+    pbf_press_button(BUTTON_A, 5, 3750);
     
     
 }
