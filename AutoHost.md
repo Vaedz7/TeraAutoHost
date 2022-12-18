@@ -20,7 +20,7 @@
 5. Set Text Speed to **FAST**
 
 ### Application Setup
-1. Have your Discord WebHook URL ready
+1. Have your Discord WebHook URL ready and make sure that the path to program is ``~/Downloads/TeraAutoHost``
 2. Install Python from [here](https://www.python.org/downloads/ "here")
 3. Open Terminal/Command Prompt and run ``cd Downloads/TeraAutoHost``
 4. Then run ``python3 autohost.py``
