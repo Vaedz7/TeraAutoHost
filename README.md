@@ -7,7 +7,7 @@
 ## Setup
 ### Board Setup
 1. Follow Microcontroller guide by Pokemon Automation [here](https://github.com/PokemonAutomation/Microcontroller "here")
-2. Download program(s) from **THIS REPOSITORY**
+2. Download the latest release from this repository
 3. Copy and Paste ``TeraAutoHost_Core.c`` to ``CustomProgram_Core.c``
 4. Compile CustomProgram.hex file for your board
 5. Flash HEX file to your board
